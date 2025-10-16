@@ -1,0 +1,10 @@
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (1, 'Staff IT', 7000000, 1000000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (2, 'Staff HR', 6500000, 900000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (3, 'Staff Keuangan', 7500000, 1200000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (4, 'Supervisor', 9000000, 1500000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (5, 'Manager', 12000000, 2000000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (6, 'Admin', 6000000, 800000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (7, 'Teknisi', 5500000, 700000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (8, 'Analis Data', 8000000, 1000000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (9, 'Quality Control', 7000000, 1000000);
+INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok, tunjangan) VALUES (10, 'Security', 5000000, 500000);
