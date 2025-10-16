@@ -1,0 +1,51 @@
+CREATE TABLE departemen (
+    id_departemen SERIAL PRIMARY KEY,
+    nama_departemen VARCHAR(100) NOT NULL,
+    lokasi VARCHAR(100)
+);
+
+CREATE TABLE jabatan (
+    id_jabatan SERIAL PRIMARY KEY,
+    nama_jabatan VARCHAR(50),
+    gaji_pokok NUMERIC(12,2),
+    tunjangan NUMERIC(12,2)
+);
+
+CREATE TABLE pegawai (
+    id_pegawai SERIAL PRIMARY KEY,
+    nip VARCHAR(20) UNIQUE NOT NULL,
+    nama VARCHAR(100) NOT NULL,
+    id_jabatan INT,
+    alamat TEXT,
+    tanggal_lahir DATE,
+    tanggal_masuk DATE
+);
+
+CREATE TABLE presensi (
+    id_presensi SERIAL PRIMARY KEY,
+    id_pegawai INT,
+    tanggal DATE,
+    status_kehadiran VARCHAR(20)
+);
+
+CREATE TABLE pelatihan (
+    id_pelatihan SERIAL PRIMARY KEY,
+    nama_pelatihan VARCHAR(100),
+    tanggal_mulai DATE,
+    tanggal_selesai DATE
+);
+
+CREATE TABLE penggajian (
+    id_penggajian SERIAL PRIMARY KEY,
+    id_pegawai INT,
+    periode DATE,
+    total_gaji NUMERIC(12,2)
+);
+
+CREATE TABLE penilaian_kinerja (
+    id_penilaian SERIAL PRIMARY KEY,
+    id_pegawai INT,
+    periode DATE,
+    nilai_kinerja INT,
+    keterangan TEXT
+);
