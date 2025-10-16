@@ -1,0 +1,10 @@
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (1, 3632, '2025-09-10', 6088505);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (2, 4954, '2025-09-10', 7315681);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (3, 6855, '2025-05-03', 13861149);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (4, 3471, '2025-08-02', 5279330);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (5, 8181, '2025-08-30', 10459756);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (6, 9627, '2025-07-29', 10723733);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (7, 7081, '2025-02-23', 10256745);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (8, 9978, '2025-04-23', 14768024);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (9, 4667, '2025-03-05', 14145277);
+INSERT INTO penggajian (id_penggajian, id_pegawai, periode, total_gaji) VALUES (10, 4420, '2025-04-11', 6503702);
