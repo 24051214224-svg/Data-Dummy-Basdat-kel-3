@@ -1,0 +1,11 @@
+INSERT INTO departemen (id_departemen, nama_departemen, lokasi) VALUES
+(1, 'Teknologi Informasi', 'Gedung A, Lantai 3 - Kantor Pusat Jakarta'),
+(2, 'Keuangan', 'Gedung B, Lantai 2 - Kantor Pusat Jakarta'),
+(3, 'Sumber Daya Manusia', 'Gedung C, Lantai 1 - Kantor Pusat Jakarta'),
+(4, 'Produksi', 'Pabrik Utama - Surabaya'),
+(5, 'Pemasaran dan Penjualan', 'Kantor Cabang - Bandung'),
+(6, 'Riset dan Pengembangan', 'Gedung D, Lantai 5 - Bandung'),
+(7, 'Layanan Pelanggan', 'Kantor Cabang - Yogyakarta'),
+(8, 'Logistik dan Distribusi', 'Gudang Pusat - Bekasi'),
+(9, 'Kualitas dan Audit', 'Gedung E, Lantai 4 - Surabaya'),
+(10, 'Humas dan Komunikasi', 'Kantor Cabang - Medan');
